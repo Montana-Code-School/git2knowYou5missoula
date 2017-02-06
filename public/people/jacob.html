@@ -2,9 +2,43 @@
 <html>
 <head>
 <title>Jacob's Personel Web Page</title>
+<style>
+body {
+  font-family: sans-serif;
+}
+p {
+  font-family: monospace;
+}
+#thebutton {
+  position: fixed;
+  top: 200px;
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  var colors = ['red', 'blue', 'green'];
+  var fonts = ['serif', 'sans-serif', 'monospace'];
+  document.querySelector('#thebutton').addEventListener('click', function(){
+    var p = document.querySelectorAll('p');
+    p[Math.floor(Math.random() * 3)].style.color = colors[Math.floor(Math.random() * 3)];
+    p[Math.floor(Math.random() * 3)].style.fontFamily = fonts[Math.floor(Math.random() * 3)];
+  });
+});
+</script>
 </head>
 <body>
-<h1>Here I am!</h1>
-<p>I'm in the code school to improve my skills, meet some people in the local software community, and eventually get a new job. Edit and commit. Here's yet another edit to make sure I'm using git correctly. And again.<p>
+<h1>Hello!</h1>
+<p>
+  I'm in the code school to improve my skills, meet some people in the local software community,
+  and eventually get a new job. Edit and commit. Here's yet another edit to make sure I'm using git correctly. And again.
+</p>
+<p>
+  I could go crazy now with CSS and JS but I'm not sure that's important at
+  the moment.
+</p>
+<p>
+  Here's another paragraph so I can do something silly with JS.
+</p>
+<button type="button" id="thebutton">click me repeatedly!</button>
 </body>
 </html>
