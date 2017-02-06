@@ -1,0 +1,17 @@
+body {
+  background-color: #d1d1d1;
+}
+
+H1, H2 {
+  color: #8126bb;
+  padding: 5px 0 10px 0;
+}
+
+#intro {
+  width: 75%;
+  padding-left: 30px;
+}
+
+.indent {
+  padding-left: 30px;
+}
