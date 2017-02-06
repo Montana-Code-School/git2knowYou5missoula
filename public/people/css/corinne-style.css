@@ -4,9 +4,13 @@ body {
 
 H1, H2 {
   color: #8126bb;
-  padding: 5px 0 10px 0;
+  padding: 10px 0 10px 0;
 }
 
+H1 {
+  border: 1px inset;
+  text-align: center;
+}
 #intro {
   width: 75%;
   padding-left: 30px;
