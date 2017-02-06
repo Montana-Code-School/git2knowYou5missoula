@@ -1,0 +1,15 @@
+/* CSS for genevieve.html */
+
+body {
+    background-color: #e0e0eb;
+}
+
+h1 {
+    color: #e6ffff;
+    margin-left: 20px;
+    style: bold
+}
+p {
+	color: #006699;
+	margin-left: 40px;
+	}
