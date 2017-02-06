@@ -1,0 +1,51 @@
+h1 {
+				color: #C9C9C9;
+				font-family:'Oswald', sans-serif;
+				font-size: 40px;
+				background-color: #3E3E3E;
+			}
+		h3 {
+					background-color: #3E3E3E;
+					font-family:'Oswald', sans-serif;
+					padding: 20px;
+					color: #C9C9C9;
+					margin: 0px;
+					font-size: 20px;
+
+				}
+
+		#col {
+					-moz-column-count: 2;
+					-webkit-column-count: 2;
+					column-count: 2;
+			}
+		
+		.codeSchool {
+			background-color: #C9C9C9;
+			margin: 0px;
+			padding: 20px;
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+			height: 200px;
+		}
+		.img {
+			margin: 20px;
+		}
+		
+		a:link {
+    		color: #7E9D00;
+		}
+
+		/* visited link */
+		a:visited {
+			color: #C9C9C9;;
+		}
+
+		/* mouse over link */
+		a:hover {
+			color: #7E9D00;
+		}
+
+		/* selected link */
+		a:active {
+			color: #7E9D00;
+		}
