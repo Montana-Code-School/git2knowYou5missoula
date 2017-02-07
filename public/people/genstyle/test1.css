@@ -1,15 +1,45 @@
 /* CSS for genevieve.html */
 
+
 body {
-    background-color: #e0e0eb;
+    background-color: #666666;
+    font-family: Courier New, monospace;
+}
+
+#tagline {
+	color: #f2f2f2;
+	font-style: italic;
 }
 
 h1 {
-    color: #e6ffff;
-    margin-left: 20px;
-    style: bold
+    color: #ffffff;
+    margin-left: 40px;
+    font-size: 500%;
+    
 }
+
+h2 {
+
+	color: #ff6666;
+    margin-left: 40px;
+    font-size: 250%
+}
+
+ul { 
+	color: #f2f2f2;
+    margin-left: 40px;
+}
+
 p {
-	color: #006699;
-	margin-left: 40px;
+	color: #f2f2f2;
+	text-align: left;
+	font-family: Georgia, serif;
+	}
+
+span {
+	font-style: italic;
+}
+
+a {
+	font-style: bold
 	}
