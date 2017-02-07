@@ -3,7 +3,7 @@ body{
 }
 h1{
 	color: #ffb6c1;
-	text-shadow: 10px 5px black;
+	text-shadow: 255, 255, 255, 0.4;
 	text-align: center;
 	line-height: 100%;
 	text-decoration: underline;
