@@ -1,8 +1,14 @@
+#Why{
+     margin-left: 530px;   
+        border-bottom: 5px double #737373;
+        width: 210px;
+}
 body{
+    font-family: courier new;
     background-color: #cccccc;
         } 
 h1 {
-    font-family: courier new;
+    
     width: 400px;
     border-bottom: 10px solid #737373;
     margin-left:400px;
@@ -11,20 +17,25 @@ h1 {
         }
 h2{
             
-        font-family: courier new;
+     
          margin-left: 565px;   
         border-bottom: 5px double #737373;
         width: 120px;
         }
+ul{
+          
+    margin-left: 250px;
+    width: 725px;
+            
         }
 .format{
     width: 725px;
     margin-left: 250px;
-    font-family: courier new;
+    
     
 }
 p{
-    font-family: courier new;
+    
 }
 .dog {
     width: 250px;
@@ -38,10 +49,10 @@ p{
 }
 
 #nala{
-    font-family: courier new;
+   
     margin-left: 300px;
 }
 #winston{
-    font-family: courier new;
+    ;
     margin-left:  150px;
 }
