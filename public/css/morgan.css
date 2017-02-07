@@ -1,25 +1,33 @@
+@media(max-width: 1000px) {		
+		body{
+			background-color: rgb(244,200,66);
+		}
+}
 body {
 	color: blue;
 	display: block;
 	font-size: xx-large;
 }
 
-.photo {
-	transform: rotate(90deg);
-	height: 200px;
-	width: 500px;
+.memoryPhoto{
+	display: inline-block;
+	color: black;
+	font-size: medium;
+	font-family: "Optima", Sans-Serif;
+	font-variant: small-caps;
+}
+
+
+#photo {
+	
+	height: 300px;
+	width: 400px;
 	display: inline-block;
 
 }
-.photo2 {
+#photo2 {
 	height: 500px;
-	width: 200px;
+	width: 300px;
 	display: inline-block;
 }
-.photoContainer {
-	height: 500px;
-}
-p {
-	color: black;
-	font-size: small;
-}
+
