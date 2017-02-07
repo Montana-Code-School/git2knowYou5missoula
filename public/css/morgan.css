@@ -1,0 +1,33 @@
+@media(max-width: 1000px) {		
+		body{
+			background-color: rgb(244,200,66);
+		}
+}
+body {
+	color: blue;
+	display: block;
+	font-size: xx-large;
+}
+
+.memoryPhoto{
+	display: inline-block;
+	color: black;
+	font-size: medium;
+	font-family: "Optima", Sans-Serif;
+	font-variant: small-caps;
+}
+
+
+#photo {
+	
+	height: 300px;
+	width: 400px;
+	display: inline-block;
+
+}
+#photo2 {
+	height: 500px;
+	width: 300px;
+	display: inline-block;
+}
+
