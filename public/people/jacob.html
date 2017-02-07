@@ -10,16 +10,17 @@ body {
 p {
   font-family: monospace;
 }
-#thebutton {
-  position: fixed;
-  top: 200px;
+@media (max-width: 600px) {
+	p {
+		font-size: 30px;
+	}
 }
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', function(){
   var colors = ['red', 'blue', 'green'];
   var fonts = ['serif', 'sans-serif', 'monospace'];
-  document.querySelector('#thebutton').addEventListener('click', function(){
+  document.querySelector('button').addEventListener('click', function(){
     var p = document.querySelectorAll('p');
     p[Math.floor(Math.random() * 3)].style.color = colors[Math.floor(Math.random() * 3)];
     p[Math.floor(Math.random() * 3)].style.fontFamily = fonts[Math.floor(Math.random() * 3)];
@@ -38,8 +39,8 @@ document.addEventListener('DOMContentLoaded', function(){
   the moment.
 </p>
 <p>
-  Here's another paragraph. Time to do something silly with JS.
+  Here's another paragraph. Time to pull a useless stunt with JS.
 </p>
-<button type="button" id="thebutton">click me repeatedly!</button>
+<button type="button">click me repeatedly!</button>
 </body>
 </html>
