@@ -7,15 +7,35 @@ H1, H2 {
   padding: 10px 0 10px 0;
 }
 
-H1 {
+#header {
   border: 1px inset;
   text-align: center;
 }
 #intro {
   width: 75%;
-  padding-left: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .indent {
   padding-left: 30px;
+}
+
+#social li {
+  display: inline;
+  font-size: 24;
+  padding: 0 15px 0 0;
+}
+
+#toggleHide {
+  text-align: center;
+}
+
+#dogpic {
+  display: none;
+}
+
+#dogpic img {
+  border: double;
+  border-radius: 8px;
 }
