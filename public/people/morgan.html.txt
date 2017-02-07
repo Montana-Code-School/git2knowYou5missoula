@@ -1,6 +1,0 @@
-<html>
-	<head></head>
-	<body>
-		<div><font color=blue>This is Morgan's page</font></div>
-	</body>
-</html>
