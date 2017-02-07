@@ -1,0 +1,15 @@
+body{
+	background-color: f5fffa;
+}
+h1{
+	color: #ffb6c1;
+	text-shadow: 10px 5px black;
+	text-align: center;
+	line-height: 20%;
+	text-decoration: underline;
+}
+h2{
+	text-align: justify;
+	line-height: 6.66;
+	font-family: sans-serif;
+}
