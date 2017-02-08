@@ -1,15 +1,22 @@
 body{
+	border-style: solid;
 	background-color: f5fffa;
 }
 h1{
 	color: #ffb6c1;
-	text-shadow: 10px 5px black;
+	text-shadow: 2px 2px #000000;
 	text-align: center;
-	line-height: 20%;
 	text-decoration: underline;
+	line-height: 80%;
 }
 h2{
+	border: 1px black;
+	margin: 100px;
 	text-align: justify;
-	line-height: 6.66;
-	font-family: sans-serif;
+	line-height: 75%;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+}
+p{
+	font-size: 14px;
 }
